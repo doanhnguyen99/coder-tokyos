@@ -9,3 +9,11 @@ Mouse.prototype.die = function(){
 }
 
 module.exports = Mouse;
+
+function convertAnimals()
+{
+    var name = 'ulis';
+    var object = new Mouse(name);
+    if(object instanceof  Mouse) console.log('true');
+
+}
