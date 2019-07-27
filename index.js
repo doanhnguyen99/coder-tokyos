@@ -9,4 +9,4 @@ var jerry = new Cat();
 
 //mic.sayHi();
 mic.eat(jerry);
-console.log(mic);
+// console.log(mic);
