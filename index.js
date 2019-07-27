@@ -1,9 +1,12 @@
-function People(){
-    this.dead = false;
-}
+var chalk = require('chalk');
 
-People.prototype.die = function(){
-    this.dead = true;
-}
+var Dog = require('./Dog');
+var Cat = require('./Cat');
+var mic = new Dog('Tom');
 
-module.exports = People;
+var jerry = new Cat();
+
+
+//mic.sayHi();
+mic.eat(jerry);
+console.log(mic);
