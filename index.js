@@ -15,3 +15,5 @@ mic.prototype.getData = function()
 {
     this.name = 'ahihi';
 }
+
+// Comment Code
