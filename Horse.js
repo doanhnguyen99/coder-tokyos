@@ -1,6 +1,5 @@
-function Horse(name)
+function Horse()
 {
-    this.name = name;
 }
 
 module.exports = Horse;
