@@ -3,6 +3,54 @@
     margin-top: 100px;
     margin-left: 500px;
     display: flex;
-    height: 40px;
-    background-color: blueviolet;
+    height: 50px;
+    background-color: rgb(191, 143, 236);
+}
+
+.stats{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 400px;
+}
+
+.player{
+    display: flex;
+    width: 35%;
+    margin-left: 500px;
+    height: 70px;
+    background-color: rgb(245, 157, 157)
+}
+
+.player-name{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.counter{
+    display: flex;
+    padding-left: 400px;
+}
+
+.counter-score{
+    font-size: 25px;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.counter-action{
+    width: 35px;
+    background-color: rgb(211, 187, 187);
+}
+
+.decrement:hover{
+    background-color: cyan;
+}
+
+.increment:hover{
+    background-color: rgb(255, 217, 0);
 }
